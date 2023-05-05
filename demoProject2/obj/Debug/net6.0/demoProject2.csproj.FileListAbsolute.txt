@@ -1,0 +1,15 @@
+C:\Users\kawser\source\repos\demoProject2\bin\Debug\net6.0\demoProject2.exe
+C:\Users\kawser\source\repos\demoProject2\bin\Debug\net6.0\demoProject2.deps.json
+C:\Users\kawser\source\repos\demoProject2\bin\Debug\net6.0\demoProject2.runtimeconfig.json
+C:\Users\kawser\source\repos\demoProject2\bin\Debug\net6.0\demoProject2.dll
+C:\Users\kawser\source\repos\demoProject2\bin\Debug\net6.0\demoProject2.pdb
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\demoProject2.csproj.AssemblyReference.cache
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\demoProject2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\demoProject2.AssemblyInfoInputs.cache
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\demoProject2.AssemblyInfo.cs
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\demoProject2.csproj.CoreCompileInputs.cache
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\demoProject2.dll
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\refint\demoProject2.dll
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\demoProject2.pdb
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\demoProject2.genruntimeconfig.cache
+C:\Users\kawser\source\repos\demoProject2\obj\Debug\net6.0\ref\demoProject2.dll
