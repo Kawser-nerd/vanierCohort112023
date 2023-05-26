@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlVanCohort11", "sqlVanCohort11.csproj", "{FBE92C34-3223-4110-A828-1DF0E9D45C45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE92C34-3223-4110-A828-1DF0E9D45C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE92C34-3223-4110-A828-1DF0E9D45C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE92C34-3223-4110-A828-1DF0E9D45C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE92C34-3223-4110-A828-1DF0E9D45C45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECBB2F77-540C-46C1-A8A7-2A9BA2695FDA}
+	EndGlobalSection
+EndGlobal

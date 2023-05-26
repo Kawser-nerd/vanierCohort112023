@@ -1,0 +1,39 @@
+﻿<Window x:Class="sqlVanCohort11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sqlVanCohort11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Height="NaN" Margin="0,0,0,-22">
+        <Canvas x:Name="Canvas1" Height="NaN" Margin="0,0,0,351" Background="#FFADD3EF">
+            <Button x:Name="SearchBtn" Content="Search" Canvas.Left="690" Canvas.Top="21" Height="27" Width="63" FontSize="16" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="0"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="0"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+        </Canvas>
+        <TextBox x:Name="studentID" HorizontalAlignment="Left" Margin="498,24,0,0" TextWrapping="Wrap" Text="Insert ID" VerticalAlignment="Top" Width="153" Height="24" FontSize="16"/>
+        <Label x:Name="label" Content="Vanier Cohort11 Students DB&#xD;&#xA;" HorizontalAlignment="Left" Margin="44,20,0,0" VerticalAlignment="Top" FontSize="16" Height="32"/>
+        <TextBox x:Name="InsertID" HorizontalAlignment="Left" Margin="242,129,0,0" TextWrapping="Wrap" Text="Insert ID" VerticalAlignment="Top" Width="148" FontSize="16"/>
+        <TextBox x:Name="InsertLName" HorizontalAlignment="Left" Margin="242,167,0,0" TextWrapping="Wrap" Text="Insert L. Name" VerticalAlignment="Top" Width="148" FontSize="16" />
+        <TextBox x:Name="InsertFName" HorizontalAlignment="Left" Margin="242,208,0,0" TextWrapping="Wrap" Text="Insert F. Name" VerticalAlignment="Top" Width="148" FontSize="16"/>
+        <TextBox x:Name="insertEmail" HorizontalAlignment="Left" Margin="242,244,0,0" TextWrapping="Wrap" Text="Insert Email Add" VerticalAlignment="Top" Width="148" FontSize="16"/>
+        <Label x:Name="label1" Content="Student ID" HorizontalAlignment="Left" Margin="118,125,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="label2" Content="Last Name" HorizontalAlignment="Left" Margin="118,163,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="label2_Copy" Content="First Name" HorizontalAlignment="Left" Margin="118,204,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="label2_Copy1" Content="Email" HorizontalAlignment="Left" Margin="118,240,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="InsertSQL" Content="Insert" HorizontalAlignment="Left" Margin="472,118,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Click="InsertSQL_Click"/>
+        <Button x:Name="DeleteSQL" Content="Delete" HorizontalAlignment="Left" Margin="472,171,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Background="#FFEEC3C3"/>
+        <Button x:Name="UpdateSQL" Content="Update" HorizontalAlignment="Left" Margin="472,224,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Background="#FF0AA1A6"/>
+        <Button x:Name="SelectSQL" Content="Show" HorizontalAlignment="Left" Margin="628,171,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Background="#FFD3F5F6" Click="SelectSQL_Click"/>
+        <DataGrid x:Name="dataGrid"  Height="NaN" Margin="44,298,66,40" Width="NaN"/>
+
+    </Grid>
+</Window>
