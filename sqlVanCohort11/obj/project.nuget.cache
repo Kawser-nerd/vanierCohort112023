@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AmmMACTX5ZbVHVDP7fbqn1ESl8hn+fe/rk/wEIJdbsiRwJ88LrCQ3Rc8LRAfToLNtHPQcWg9ct9Gz+R24qaDwQ==",
+  "dgSpecHash": "rhq8N/PE9D9wzc3YcxwTwOxtcLfKwzIeP+iDgiKJuoGSW0kIPrQmY2+ZaXwh2JgflkmsP+pJ3QVmxpUfhs8sXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kawser\\source\\repos\\sqlVanCohort11\\sqlVanCohort11.csproj",
+  "projectFilePath": "C:\\Users\\knafi\\Downloads\\vanierCohort112023-master\\vanierCohort112023-master\\sqlVanCohort11\\sqlVanCohort11.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kawser\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\kawser\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
-    "C:\\Users\\kawser\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\knafi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\knafi\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\knafi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

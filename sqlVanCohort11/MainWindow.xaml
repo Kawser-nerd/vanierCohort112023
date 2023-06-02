@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Height="NaN" Margin="0,0,0,-22">
         <Canvas x:Name="Canvas1" Height="NaN" Margin="0,0,0,351" Background="#FFADD3EF">
-            <Button x:Name="SearchBtn" Content="Search" Canvas.Left="690" Canvas.Top="21" Height="27" Width="63" FontSize="16" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Button x:Name="SearchBtn" Content="Search" Canvas.Left="690" Canvas.Top="21" Height="27" Width="63" FontSize="16" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center" Click="SearchBtn_Click">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -30,8 +30,8 @@
         <Label x:Name="label2_Copy" Content="First Name" HorizontalAlignment="Left" Margin="118,204,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label x:Name="label2_Copy1" Content="Email" HorizontalAlignment="Left" Margin="118,240,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Button x:Name="InsertSQL" Content="Insert" HorizontalAlignment="Left" Margin="472,118,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Click="InsertSQL_Click"/>
-        <Button x:Name="DeleteSQL" Content="Delete" HorizontalAlignment="Left" Margin="472,171,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Background="#FFEEC3C3"/>
-        <Button x:Name="UpdateSQL" Content="Update" HorizontalAlignment="Left" Margin="472,224,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Background="#FF0AA1A6"/>
+        <Button x:Name="DeleteSQL" Content="Delete" HorizontalAlignment="Left" Margin="472,171,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Background="#FFEEC3C3" Click="DeleteSQL_Click"/>
+        <Button x:Name="UpdateSQL" Content="Update" HorizontalAlignment="Left" Margin="472,224,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Background="#FF0AA1A6" Click="UpdateSQL_Click"/>
         <Button x:Name="SelectSQL" Content="Show" HorizontalAlignment="Left" Margin="628,171,0,0" VerticalAlignment="Top" Height="40" Width="124" FontSize="16" Background="#FFD3F5F6" Click="SelectSQL_Click"/>
         <DataGrid x:Name="dataGrid"  Height="NaN" Margin="44,298,66,40" Width="NaN"/>
 
