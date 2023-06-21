@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 ﻿<Project>
   <Import Project="..\build\RestAPICohort.props" />
+=======
+﻿<Project>
+  <Import Project="..\build\RestAPICohort.props" />
+>>>>>>> 400f8ea737256886515c880d0d50d927db844515
 </Project>

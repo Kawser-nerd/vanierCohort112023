@@ -174,5 +174,91 @@ namespace sqlVanCohort11
 
 
         }
+
+        private void UpdateSQL_Click(object sender, RoutedEventArgs e)
+        {
+            establishConnection();
+            try
+            {
+                con.Open(); // open the connection with Backend database
+               // string Query = "Update table students set firstname='"+ InsertFName.Text +"', " +
+               //     "lastname='"+InsertLName.Text+"', " +
+               //     "email='"+insertEmail.Text+"' " +
+                //    "where id='"+int.Parse(InsertID.Text)+"'";
+                string Query = "Update students set firstname=@FirstName, " +
+                    "lastname=@LastName, " +
+                    "email=@Email where id=@ID";
+                cmd = new NpgsqlCommand(Query, con);
+
+                cmd.Parameters.AddWithValue("@FirstName", InsertFName.Text);
+                cmd.Parameters.AddWithValue("@LastName", InsertLName.Text);
+                cmd.Parameters.AddWithValue("@Email", insertEmail.Text);
+                cmd.Parameters.AddWithValue("@ID", int.Parse(InsertID.Text));
+
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }catch(NpgsqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void DeleteSQL_Click(object sender, RoutedEventArgs e)
+        {
+            establishConnection();
+            try
+            {
+                con.Open(); // open the connection with Backend database
+                            // string Query = "Update table students set firstname='"+ InsertFName.Text +"', " +
+                            //     "lastname='"+InsertLName.Text+"', " +
+                            //     "email='"+insertEmail.Text+"' " +
+                            //    "where id='"+int.Parse(InsertID.Text)+"'";
+                string Query = "Delete from students where id=@ID";
+                cmd = new NpgsqlCommand(Query, con);
+
+                cmd.Parameters.AddWithValue("@ID", int.Parse(InsertID.Text));
+
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (NpgsqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private async Task SearchBtn_ClickAsync(object sender, RoutedEventArgs e)
+        {
+            establishConnection();
+            // Establish the Connection
+            establishConnection();
+            // Open the Connection
+            try
+            {
+                con.Open();
+                // Generate the SQL Query
+                string Query = "select * from students where id=@ID";
+                // command adapter
+                cmd = new NpgsqlCommand(Query, con);
+                cmd.Parameters.AddWithValue("@ID", int.Parse(studentID.Text));
+
+                /*
+                 * in this program, we are going to add a reader to read one entry from the 
+                 * database
+                 */
+                var reader = await cmd.ExecuteReaderAsync();
+
+                InsertID.Text = reader.GetOrdinal("ID").ToString();
+                InsertFName.Text = reader.GetOrdinal("firstname").ToString();
+                InsertLName.Text = reader.GetOrdinal("lastname").ToString();
+                insertEmail.Text = reader.GetOrdinal("email").ToString();
+
+                con.Close();
+            }
+            catch (NpgsqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

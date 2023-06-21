@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Version": 1,
   "Hash": "ODeSUgO9uHFBRH3OeJo4BH69LXNX0GEoGiCmhxLKpcg=",
@@ -8,4 +9,16 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
+=======
+{
+  "Version": 1,
+  "Hash": "ODeSUgO9uHFBRH3OeJo4BH69LXNX0GEoGiCmhxLKpcg=",
+  "Source": "RestAPICohort",
+  "BasePath": "_content/RestAPICohort",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+>>>>>>> 400f8ea737256886515c880d0d50d927db844515
 }
